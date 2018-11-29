@@ -21,6 +21,12 @@ li {
   background-position: center;
 }
 
+.about-us .container .about {
+  border-image: url("../img/01.png");
+  border-left: 2px solid;
+  border-color: #e8bf5d;
+}
+
 header .container {
   display: flex;
   justify-content: space-between;
