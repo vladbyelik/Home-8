@@ -15,6 +15,24 @@ li {
   margin: 0 auto;
 }
 
+.practis-area .first-text-div h2 {
+  color: #ffffff;
+  font-family: "Playfair Display";
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 44.84px;
+  letter-spacing: 1.24px;
+}
+
+.practis-area .first-text-div span {
+  color: #b9b9b9;
+  font-family: "Playfair Display";
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30.89px;
+  letter-spacing: 0.84px;
+}
+
 .advocat-photo {
   background-image: url("../img/stock-photo.png");
   background-size: cover;
@@ -26,7 +44,7 @@ li {
   position: relative;
 }
 
-.about-us .container .about {
+.about-us .container .section-number {
   background: url(../img/01.png) no-repeat;
   width: 178px;
   height: 144px;
@@ -35,15 +53,18 @@ li {
   left: 8px;
 }
 
-.about-us .container .about-div {
+.about-us .container .first-text-div {
+  margin-top: 10px;
+}
+
+.first-text-div {
   border-left: 2px solid;
   border-color: #e8bf5d;
   padding-left: 20px;
   width: 783px;
-  margin-top: 10px;
 }
 
-.about-div h2 {
+.first-text-div h2 {
   color: #111111;
   font-family: "Playfair Display";
   font-size: 31px;
@@ -53,7 +74,7 @@ li {
   margin: 0 0 20px;
 }
 
-.about-div span {
+.first-text-div span {
   color: #666666;
   font-family: "Playfair Display";
   font-size: 21px;
@@ -65,6 +86,7 @@ li {
 .chronology {
   display: flex;
 }
+
 
 .description {
   width: 440px;
@@ -143,8 +165,66 @@ header .container nav li a:hover {
 }
 
 .practis-area .container {
-  padding-top: 78px;
+  padding: 78px 0;
   position: relative;
+}
+
+.practis-area .section-number {
+  background: url(../img/02.png) no-repeat;
+  width: 215px;
+  height: 144px;
+  position: absolute;
+  opacity: 0.1;
+  left: 8px;
+}
+
+.services {
+  margin: 85px 0 0;
+  padding: 0;
+  column-count: 2;
+}
+
+.services li {
+  width: 446px;
+  padding-left: 75px;
+  margin-top: 72px;
+}
+
+.services li:first-child {
+  background: url("../img/hands.png") no-repeat;
+  margin-top: 0;
+}
+
+.services li:nth-child(2) {
+  background: url("../img/comp.png") no-repeat;
+}
+
+.services li:nth-child(3) {
+  background: url("../img/key.png") no-repeat;
+}
+
+.services li:last-child {
+  background: url("../img/home.png") no-repeat;
+}
+
+.list-headline {
+  color: #ffffff;
+  font-family: "Playfair Display";
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0.84px;
+  margin-top: 0;
+}
+
+.span {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.56px;
+  line-height: 25px;
+
 }
 
 .small-container {
