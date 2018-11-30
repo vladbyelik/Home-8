@@ -21,14 +21,77 @@ li {
   background-position: center;
 }
 
+.about-us .container {
+  padding: 80px 0 44px;
+  position: relative;
+}
+
 .about-us .container .about {
-  background-image: url(../img/01.png);
+  background: url(../img/01.png) no-repeat;
+  width: 178px;
+  height: 144px;
+  position: absolute;
+  opacity: 0.1;
+  left: 8px;
+}
+
+.about-us .container .about-div {
   border-left: 2px solid;
   border-color: #e8bf5d;
+  padding-left: 20px;
+  width: 783px;
+  margin-top: 10px;
+}
+
+.about-div h2 {
+  color: #111111;
+  font-family: "Playfair Display";
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 44.84px;
+  letter-spacing: 1.24px;
+  margin: 0 0 20px;
+}
+
+.about-div span {
+  color: #666666;
+  font-family: "Playfair Display";
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30.89px;
+  letter-spacing: 0.84px;
+}
+
+.chronology {
+  display: flex;
+}
+
+.description {
+  width: 440px;
+}
+
+.description li {
+  color: #111111;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.64px;
+  margin-top: 7px;
+  margin-bottom: 37px;
 }
 
 .expertise {
   width: 486px;
+}
+
+.expertise p {
+  color: #666666;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0.56px;
 }
 
 header .container {
@@ -61,12 +124,27 @@ header .container nav li a:hover {
   width: 560px;
 }
 
-.some {
-  display: flex;
+.history h3, .expertise h3 {
+  color: #111111;
+  font-family: "Playfair Display";
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0.84px;
 }
 
 .history-expertise {
   display: flex;
+  padding: 0;
+}
+
+.practis-area {
+  background-color: #111111;
+}
+
+.practis-area .container {
+  padding-top: 78px;
+  position: relative;
 }
 
 .small-container {
@@ -120,4 +198,20 @@ header .container nav li a:hover {
   display: block;
   text-align: center;
   padding: 8px 15px;
+}
+
+.year {
+  padding: 0;
+}
+
+.year li {
+  width: 60px;
+  color: #111111;
+  font-family: "Open Sans";
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.84px;
+  margin-bottom: 52px;
+  margin-top: 15px;
 }
