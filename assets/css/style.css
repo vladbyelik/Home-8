@@ -195,6 +195,11 @@ first-text-black h2 {
   display: flex;
 }
 
+.date {
+  display: inline-block;
+  float: right;
+}
+
 .description {
   width: 440px;
 }
@@ -293,6 +298,83 @@ header .container nav li a:hover {
   position: absolute;
   opacity: 0.1;
   left: 8px;
+}
+
+.publications .container {
+  padding: 98px 0 103px;
+  position: relative;
+}
+
+.publications .section-number {
+  background: url(../img/05.png) no-repeat;
+  width: 215px;
+  height: 144px;
+  position: absolute;
+  opacity: 0.1;
+  left: 8px;
+}
+
+.publication-tite {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 70px 0;
+}
+
+.publication-tite li {
+  position: relative;
+}
+
+.publication-tite figure {
+  width: 370px;
+  border-bottom: 2px  solid #e8bf5d;
+  margin: 0;
+}
+
+.publication-tite .author {
+  font-family: "Open Sans";
+  letter-spacing: 0.64px;
+  line-height: 24px;
+}
+
+.publication-tite .date {
+  color: #666666;
+  font-family: "Open Sans";
+  font-style: italic;
+  letter-spacing: 0.64px;
+  line-height: 24px;
+}
+
+.publication-tite .text {
+  color: #666666;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0.56px;
+}
+
+.publication-tite figcaption {
+  font-family: "Playfair Display";
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: 0.84px;
+  line-height: 31px;
+  margin-bottom: 38px;
+}
+
+.publication-tite .comments, .publication-tite .share {
+  color: #111111;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 31px;
+}
+
+.publication-tite .comments-share {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
 }
 
 .rounds {
