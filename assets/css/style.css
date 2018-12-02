@@ -10,29 +10,6 @@ li {
   list-style: none;
 }
 
-.container {
-  max-width: 1170px;
-  margin: 0 auto;
-}
-
-.first-text-black h2 {
-  color: #ffffff;
-  font-family: 'Playfair Display', serif;
-  font-size: 31px;
-  font-weight: 400;
-  line-height: 44.84px;
-  letter-spacing: 1.24px;
-}
-
-.first-text-black span {
-  color: #b9b9b9;
-  font-family: 'Playfair Display', serif;
-  font-size: 21px;
-  font-weight: 400;
-  line-height: 30.89px;
-  letter-spacing: 0.84px;
-}
-
 .advocat-photo {
   background-image: url("../img/stock-photo.png");
   background-size: cover;
@@ -46,28 +23,20 @@ li {
 
 .about-us .container .section-number {
   background: url(../img/01.png) no-repeat;
-  width: 178px;
-  height: 144px;
-  position: absolute;
-  opacity: 0.1;
-  left: 8px;
 }
 
 .alon-smith {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   margin-top: 73px;
 }
 
 .alon-smith div:last-child {
   width: 600px;
-}
-
-.alon-smith .coma {
-  background: url("../img/coma.png");
-  width: 30px;
-  height: 25px;
+  background: url(../img/coma.png) no-repeat;
   color: #ffffff;
+  padding-left: 40px;
+  margin-left: 35px;
 }
 
 .alon-smith p {
@@ -77,6 +46,7 @@ li {
   font-weight: 400;
   line-height: 31px;
   letter-spacing: 0.56px;
+  margin: 0;
 }
 
 .alon-smith h2 {
@@ -86,10 +56,16 @@ li {
   font-weight: 400;
   letter-spacing: 0.84px;
   line-height: 31px;
+  margin-top: 40px;
 }
 
-.first-text-white {
-  margin-top: 10px;
+.alon-smith h3 {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.56px;
+  line-height: 24px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .asked-questions {
@@ -103,11 +79,6 @@ li {
 
 .asked-questions .section-number {
   background: url(../img/06.png) no-repeat;
-  width: 215px;
-  height: 144px;
-  position: absolute;
-  opacity: 0.1;
-  left: 8px;
 }
 
 .attorneys .container {
@@ -117,11 +88,6 @@ li {
 
 .attorneys .section-number {
   background: url(../img/03.png) no-repeat;
-  width: 215px;
-  height: 144px;
-  position: absolute;
-  opacity: 0.1;
-  left: 8px;
 }
 
 .attorneys-photo {
@@ -165,11 +131,11 @@ li {
 
 .clients-about .section-number {
   background: url(../img/04.png) no-repeat;
-  width: 215px;
-  height: 144px;
-  position: absolute;
-  opacity: 0.1;
-  left: 8px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
 }
 
 .first-text-white, .first-text-black {
@@ -188,6 +154,19 @@ li {
   line-height: 44.84px;
   letter-spacing: 1.24px;
   margin: 0 0 20px;
+}
+
+.first-text-black span {
+  color: #b9b9b9;
+  font-family: 'Playfair Display', serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30.89px;
+  letter-spacing: 0.84px;
+}
+
+.first-text-white {
+  margin-top: 10px;
 }
 
 .first-text-white h2 {
@@ -234,7 +213,7 @@ footer .logo img {
   margin-left: 15px;
 }
 
-.chronology {
+.chronology, header .container nav ul, .history-expertise {
   display: flex;
 }
 
@@ -277,10 +256,6 @@ header .container {
   padding: 30px 0;
 }
 
-header .container nav ul {
-  display: flex;
-}
-
 header .container nav li a {
   color: #111111;
   font-family: 'Open Sans', sans-serif;
@@ -311,7 +286,6 @@ header .container nav li a:hover {
 }
 
 .history-expertise {
-  display: flex;
   padding: 0;
 }
 
@@ -325,6 +299,90 @@ header .container nav li a:hover {
   margin-top: 0;
 }
 
+.map {
+  padding: 99px 0 76px;
+}
+
+.map .container {
+  position: relative;
+}
+
+.map input {
+  width: 351px;
+  border: none;
+  border-bottom: 1px solid #b9b9b9;
+  color: #b9b9b9;
+  font-family: "Open Sans", serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 31px;
+  letter-spacing: 0.56px;
+  outline: none;
+  margin-bottom: 30px;
+}
+
+.map textarea {
+  width: 351px;
+  height: 83px;
+  border: none;
+  border-bottom: 1px solid #b9b9b9;
+  outline: none;
+  resize: none;
+  color: #b9b9b9;
+  font-family: "Open Sans", serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 31px;
+  letter-spacing: 0.56px;
+}
+
+.map form {
+  display: flex;
+  flex-direction: column;
+}
+
+.map form button {
+  border: none;
+  width: 170px;
+  border-radius: 25px;
+  background-color: #e8bf5d;
+  color: #111111;
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0.64px;
+  outline: none;
+  cursor: pointer;
+  margin: 32px 0 50px;
+  height: 50px;
+}
+
+.map form input::placeholder, textarea::placeholder {
+  color: #b9b9b9;
+  font-family: "Open Sans", serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 31px;
+  letter-spacing: 0.56px;
+}
+
+.map .form {
+  width: 870px;
+  height: 490px;
+  box-shadow: 0 12px 40px rgba(104, 86, 42, 0.1);
+  border-radius: 3px;
+  background-color: #ffffff;
+  margin: 70px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.map .section-number {
+  background: url(../img/07.png) no-repeat;
+}
+
 .practis-area {
   background-color: #111111;
 }
@@ -336,11 +394,6 @@ header .container nav li a:hover {
 
 .practis-area .section-number {
   background: url(../img/02.png) no-repeat;
-  width: 215px;
-  height: 144px;
-  position: absolute;
-  opacity: 0.1;
-  left: 8px;
 }
 
 .publications .container {
@@ -350,11 +403,6 @@ header .container nav li a:hover {
 
 .publications .section-number {
   background: url(../img/05.png) no-repeat;
-  width: 215px;
-  height: 144px;
-  position: absolute;
-  opacity: 0.1;
-  left: 8px;
 }
 
 .publication-tite {
@@ -458,7 +506,7 @@ header .container nav li a:hover {
 .questions ul li span:nth-child(2) {
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 900;
   line-height: 31px;
   letter-spacing: 0.56px;
@@ -484,6 +532,14 @@ header .container nav li a:hover {
   width: 47px;
   height: 15px;
   margin: 25px auto;
+}
+
+.section-number {
+  width: 215px;
+  height: 144px;
+  position: absolute;
+  opacity: 0.1;
+  left: 8px;
 }
 
 .services {
@@ -591,6 +647,5 @@ header .container nav li a:hover {
   font-weight: 700;
   line-height: 31px;
   letter-spacing: 0.84px;
-  margin-bottom: 52px;
-  margin-top: 15px;
+  padding: 32px 0;
 }
