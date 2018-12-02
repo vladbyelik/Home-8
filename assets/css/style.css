@@ -15,18 +15,18 @@ li {
   margin: 0 auto;
 }
 
-.practis-area .first-text-div h2 {
+first-text-black h2 {
   color: #ffffff;
-  font-family: "Playfair Display";
+  font-family: 'Playfair Display', serif;
   font-size: 31px;
   font-weight: 400;
   line-height: 44.84px;
   letter-spacing: 1.24px;
 }
 
-.practis-area .first-text-div span {
+.first-text-black span {
   color: #b9b9b9;
-  font-family: "Playfair Display";
+  font-family: 'Playfair Display', serif;
   font-size: 21px;
   font-weight: 400;
   line-height: 30.89px;
@@ -53,12 +53,47 @@ li {
   left: 8px;
 }
 
-.about-us .container .first-text-div {
+.alon-smith {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 73px;
+}
+
+.alon-smith div:last-child {
+  width: 600px;
+}
+
+.alon-smith .coma {
+  background: url("../img/coma.png");
+  width: 30px;
+  height: 25px;
+  color: #ffffff;
+}
+
+.alon-smith p {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0.56px;
+}
+
+.alon-smith h2 {
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: 0.84px;
+  line-height: 31px;
+}
+
+.first-text-white {
   margin-top: 10px;
 }
 
 .attorneys .container {
-  padding: 81px 0 0;
+  padding: 81px 0 100px;
   position: relative;
 }
 
@@ -83,7 +118,7 @@ li {
 
 .attorneys-photo figcaption {
   color: #111111;
-  font-family: "Playfair Display";
+  font-family: 'Playfair Display', serif;
   font-size: 21px;
   font-weight: 400;
   letter-spacing: 0.84px;
@@ -93,12 +128,33 @@ li {
 
 .attorneys-photo span {
   color: #666666;
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
 
-.first-text-div {
+.clients-about {
+  background-image: url(../img/stock-photo-15.png);
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+
+.clients-about .container {
+  padding: 98px 0 100px;
+  position: relative;
+}
+
+.clients-about .section-number {
+  background: url(../img/04.png) no-repeat;
+  width: 215px;
+  height: 144px;
+  position: absolute;
+  opacity: 0.1;
+  left: 8px;
+}
+
+.first-text-white, .first-text-black {
   border-left: 2px solid;
   border-color: #e8bf5d;
   padding-left: 20px;
@@ -106,9 +162,9 @@ li {
   margin-top: 10px;
 }
 
-.first-text-div h2 {
-  color: #111111;
-  font-family: "Playfair Display";
+.first-text-black h2 {
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
   font-size: 31px;
   font-weight: 400;
   line-height: 44.84px;
@@ -116,9 +172,19 @@ li {
   margin: 0 0 20px;
 }
 
-.first-text-div span {
+.first-text-white h2 {
+  color: #111111;
+  font-family: 'Playfair Display', serif;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 44.84px;
+  letter-spacing: 1.24px;
+  margin: 0 0 20px;
+}
+
+.first-text-white span {
   color: #666666;
-  font-family: "Playfair Display";
+  font-family: 'Playfair Display', serif;
   font-size: 21px;
   font-weight: 400;
   line-height: 30.89px;
@@ -135,7 +201,7 @@ li {
 
 .description li {
   color: #111111;
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 21px;
@@ -150,7 +216,7 @@ li {
 
 .expertise p {
   color: #666666;
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 31px;
@@ -169,7 +235,7 @@ header .container nav ul {
 
 header .container nav li a {
   color: #111111;
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 45px;
@@ -189,7 +255,7 @@ header .container nav li a:hover {
 
 .history h3, .expertise h3 {
   color: #111111;
-  font-family: "Playfair Display";
+  font-family: 'Playfair Display', serif;
   font-size: 21px;
   font-weight: 400;
   line-height: 31px;
@@ -203,7 +269,7 @@ header .container nav li a:hover {
 
 .list-headline {
   color: #ffffff;
-  font-family: "Playfair Display";
+  font-family: 'Playfair Display', serif;
   font-size: 21px;
   font-weight: 400;
   line-height: 31px;
@@ -227,6 +293,13 @@ header .container nav li a:hover {
   position: absolute;
   opacity: 0.1;
   left: 8px;
+}
+
+.rounds {
+  background: url("../img/rounds.png");
+  width: 47px;
+  height: 15px;
+  margin: 25px auto;
 }
 
 .services {
@@ -260,7 +333,7 @@ header .container nav li a:hover {
 
 .span {
   color: #ffffff;
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.56px;
@@ -280,7 +353,7 @@ header .container nav li a:hover {
 
 .small-container div h2 {
   color: #ffffff;
-  font-family: "Playfair Display";
+  font-family: 'Playfair Display', serif;
   font-size: 65px;
   font-weight: 400;
   letter-spacing: 2.6px;
@@ -290,7 +363,7 @@ header .container nav li a:hover {
 
 .small-container div h3 {
   color: #ffffff;
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
   font-size: 31px;
   letter-spacing: 1.24px;
   line-height: 36px;
@@ -311,7 +384,7 @@ header .container nav li a:hover {
 
 .small-container .link a {
   color: #111111;
-  font-family: "Playfair Display";
+  font-family: 'Playfair Display', serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 31px;
@@ -328,7 +401,7 @@ header .container nav li a:hover {
 .year li {
   width: 60px;
   color: #111111;
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
   font-size: 21px;
   font-weight: 700;
   line-height: 31px;
