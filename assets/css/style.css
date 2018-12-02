@@ -15,7 +15,7 @@ li {
   margin: 0 auto;
 }
 
-first-text-black h2 {
+.first-text-black h2 {
   color: #ffffff;
   font-family: 'Playfair Display', serif;
   font-size: 31px;
@@ -72,7 +72,7 @@ first-text-black h2 {
 
 .alon-smith p {
   color: #ffffff;
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 31px;
@@ -90,6 +90,24 @@ first-text-black h2 {
 
 .first-text-white {
   margin-top: 10px;
+}
+
+.asked-questions {
+  background-color: #111111;
+}
+
+.asked-questions .container {
+  padding: 98px 0 169px;
+  position: relative;
+}
+
+.asked-questions .section-number {
+  background: url(../img/06.png) no-repeat;
+  width: 215px;
+  height: 144px;
+  position: absolute;
+  opacity: 0.1;
+  left: 8px;
 }
 
 .attorneys .container {
@@ -332,14 +350,14 @@ header .container nav li a:hover {
 }
 
 .publication-tite .author {
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.64px;
   line-height: 24px;
 }
 
 .publication-tite .date {
   color: #666666;
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
   font-style: italic;
   letter-spacing: 0.64px;
   line-height: 24px;
@@ -347,7 +365,7 @@ header .container nav li a:hover {
 
 .publication-tite .text {
   color: #666666;
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 31px;
@@ -355,7 +373,7 @@ header .container nav li a:hover {
 }
 
 .publication-tite figcaption {
-  font-family: "Playfair Display";
+  font-family: 'Playfair Display', serif;
   font-size: 21px;
   font-weight: 400;
   letter-spacing: 0.84px;
@@ -365,7 +383,7 @@ header .container nav li a:hover {
 
 .publication-tite .comments, .publication-tite .share {
   color: #111111;
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 31px;
@@ -375,6 +393,65 @@ header .container nav li a:hover {
   display: flex;
   justify-content: space-between;
   margin: 30px 0;
+}
+
+.questions {
+  display: flex;
+  margin-top: 96px;
+}
+
+.questions div {
+  width: 500px;
+  box-shadow: 0 12px 40px rgba(216, 178, 87, 0.32);
+  border-radius: 3px;
+  background-color: #e8bf5d;
+  padding: 42px 48px 70px 46px;
+  margin-left: 34px;
+}
+
+.questions div span {
+  color: #111111;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0.56px;
+}
+
+.questions ul {
+  width: 566px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.questions ul li {
+  border-bottom: 2px solid #e8bf5d;
+  padding: 8px 0;
+}
+
+.questions ul li span:nth-child(2) {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 31px;
+  letter-spacing: 0.56px;
+  display: inline-block;
+  float: right;
+}
+
+.questions ul li span:first-child {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.56px;
+}
+
+.questions ul li:first-child span:first-child {
+  color: #e8bf5d;
 }
 
 .rounds {
